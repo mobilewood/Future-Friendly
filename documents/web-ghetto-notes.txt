@@ -1,0 +1,91 @@
+Proprietary solutions will define possibilities of device and interaction.
+But will have to retreat to standards. But what to standardize?
+Standards will break down under this overwhelming load.
+
+Future friendly:
+
+Reduction.
+
+Data portability: API first. Data exchange is one way to go. Run faster to create new stuff. And future friendly.
+- interoperability between service and data source
+- flexibility and fluidity, like html and json. it gives.
+- push and pull data.
+- read/write.
+- long-range data integrity as format.
+
+Device profiling
+- small number of profile device categories simplify problem
+- short term stems chaos
+- long term creates market by creating established categories
+- animal, vegetable, mineral
+- high-level. nitty gritty can wait til later.
+
+Inter-profile interactions.
+- delegation to and interaction between multiple devices.
+- push content across points
+- you are a collection of devices that is part of an ecosystem.
+- commonality of experience across all.
+
+
+BROWSER GHETTO
+
+Web vs native is just today's problem. The problem that is that there's a caste system of favored technologies. So we want to get to a point that data and services should not be trapped in a caste system. How do we avoid a caste system?
+
+Caste is formed by notions of browsing vs doing, of complexity and polish vs simplicity and accessibility. We need to change browsers from being engines of consumption to engines of creation, which is currently the domain of the app. How do we close the distance so that browser apps and native apps are indistinguishable. Why choose?
+
+The fix:
+
+Transformation
+Encapsulation
+Abstraction
+
+* Make content addressable and available by any user agent on any device, understanding that security is an issue. Browser is my secretary. I should be able to get all of my data, all of my files at any time through a URL. This is the iCloud/Dropbox dream, it's the browser as both personal and public file system.
+
+* This should include random-access addressability to any portion of content in any medium. Not just the whim of a developer who has dropped an anchor link in, or a chaptered audio book, or a timecoded video. But random access.
+
+* All content should be addressable, and all people should be able to create addressable content. Abstract away notions of FTP and protocols and make it easy to write/create addressable content. A farmer in west africa can share and download crop reports with an easy-tocreate permanent address to that document or concept.
+
+* This content must be neutrally and semantically formatted such that it is transformable in presentation, structure, and content. It is not tied to device or presentation or context.
+
+* Browsers should be better at sharing the individual's state and location within that address, saving that back to the network.
+
+* This is about statefulness of time and location across medium and context. I'm reading on my laptop, I go on a walk and start LISTENING at same point.
+
+* The browser itself should be invisible.
+
+* You should be able to encapsulate content and features and save that as an "app."
+
+* This is currently the domain of experts, but regular people should be able to create the same. An easier automator/pipes/fluid/this-then-that.
+
+* Portable and shareable. Anybody can create and share an app, like the Chrome Web Store, or dashboard widgets are a primitive. 
+
+* This encapsulation should abstract what is being encapsulated, it's just an app no matter what it's made out of.
+
+One piece of the solution also addresses a follow-on problem, where's the PAIN. Building native apps is overwhelming. Yet the browser itself is a native app. A huge problem with native apps is that we have to keep building our own browser each and every time. One fix is a better browser that ALL  can use.
+
+Show, don't tell. One fix: Phonegap browser.
+
+* For shame. You already have a browser that should do what you do.
+* Empowering users to use the web at the cutting edge of the specification.
+* Empower to make full use of their device.
+* The browser itself would be zen garden.
+
+CONTENT LIKE WATER
+
+Not sufficiently structured to enable reuse. Can't do anything actionable with it. Inevitably, tools are holding us back because they don't help it. But also, behavior is a problem, we have to WANT to do it.
+
+Structured content first: Core content devoid of container, but to an extra level. Microcontent. More malleable, more enhanceable in the future.
+
+Markup structure.
+
+Single URI and canonical link.
+
+Generally fluid layer of contextual enhancement, not just of presentation but of relationships, behavior, presentation, mix up architecture in different context, narrative too, social layer.
+
+Simple, concrete ways to change their behavior.
+
+Lack of tangible value. Not clear why. Not structured right. Now we can convince people:
+
+You will be able to do more with your content. SAVE MONEY, get value. The sooner you do it, the more value you get.
+
+METADATA IS THE NEW ART DIRECTION.

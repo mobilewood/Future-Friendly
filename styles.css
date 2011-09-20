@@ -1,0 +1,325 @@
+/*
+  Red: #a42b22
+  Blue: #0699cc
+  Grey: #c1c1c1
+  "Cream": #f2f2f2
+*/
+
+body {
+  background: #efeee8;
+  color: #454545;
+  font: 1.1em/1.7 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
+  max-width: 34em;
+  margin: 0 auto;
+  padding: 1em 3%;
+}
+a {
+  text-decoration: none;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  padding-left: .5em;
+  padding-right: .5em;
+  text-shadow: 1px 1px 0 #fff;
+}
+a[href]:link,
+a[href]:visited {
+  color: #0699cc;
+  background: rgba(0, 0, 0, .03);
+}
+a[href]:hover,
+a[href]:focus,
+a[href]:active {
+  color: #a42b22;
+  background: rgba(0,0,0,.06);
+}
+
+h1,h2,h3 {
+  color: #a42b22;
+  text-transform: uppercase;
+  font-family: 'Futura', 'Trebuchet MS', 'Calibri', 'Helvetica Neue', 'Arial', sans-serif;
+  text-align: center;
+}
+h2,h3 {
+  margin-top: 1.8em;
+}
+h2 {
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 1.25em;
+  line-height: 1em;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+p, ul {
+  margin: 1.5em .5em 0;
+}
+section,article,aside,nav,
+header,footer {
+  display: block;  
+}
+
+[role="banner"] {
+  padding-bottom: 2em;
+  border-bottom: 2px solid #bebdbd;
+  position: relative;
+}
+[role="banner"]:after {
+  display: block;
+  content: "★";
+  color: #0397cc;
+  background: #EFEEE8;
+  font-size: 0.4em;
+  padding: 0 1em;
+  width: 1em;
+  margin-left: -1.35em;
+  position: absolute;
+  left: 50%;
+  bottom: -1.3em;
+}
+[role="banner"] h1 {
+  margin-bottom: 0;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: rgba(50,50,50,.9);
+}
+[role="banner"] img {
+  max-width: 90%;
+  margin: auto;
+}
+[role="banner"] a {
+  background: none;
+  text-shadow: none;
+  padding: 0;
+  border: 0;  
+}
+[role="banner"] a img {
+  max-width: 300px;
+  margin: 1em auto 0;
+  display: block;
+  border: 0;
+}
+
+section header {  
+  border-bottom: 2px solid #bebdbd;
+  text-align: center;
+  margin: 0 0 2em;
+}
+header h2 {
+  position: relative;
+  margin-bottom: -0.5em;
+  background: #EFEEE8;
+  display: inline-block;
+  bottom: -0.85em;
+}
+header h2:before, header h2:after {
+  display: inline-block;
+  content: "★";
+  color: #0397cc;
+  font-size: 0.4em;
+  padding: 0 1em;
+  position: relative;
+  top: -0.3em;
+}
+
+[role="navigation"] ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+[role="navigation"] li {
+  margin-bottom: 1em;
+}
+[role="navigation"] li a:link,
+[role="navigation"] li a:visited {
+  color: #a42b22;
+}
+[role="navigation"] li:before, [role="navigation"] li:after {
+  display: inline-block;
+  content: "★";
+  color: #0397cc;
+  font-size: 0.4em;
+  padding: 0 0.6em;
+  position: relative;
+  top: -0.3em;
+}
+
+[role="contentinfo"] {
+  border-top: 2px solid #bebdbd;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 0.85em;
+  text-align: center;
+}
+[role="contentinfo"] ul,
+[role="contentinfo"] li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+[role="contentinfo"] li {
+	margin-bottom: 1em;
+}
+
+#manifesto > header p {
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+#truths {
+  padding: 2em 0.5em 0;
+  list-style: none;
+}
+#truths li {
+  display: inline;
+}
+#truths:first-letter {
+  color: #a42b22;
+  text-shadow: .05em .05em 0 #bebdbd;
+  font-size: 380%;
+  line-height: 1;
+  padding: 0 .19em 0 0;
+  float: left;
+}
+#hope ol {
+  counter-reset: listnumbering;
+  list-style: none;
+  margin: 3em 0 0 0;
+  padding: 0;
+}
+#hope ol li {
+  display: block;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 1em 2em;
+}
+#hope ol li:before {
+  display: block;
+  clear: both;
+  color: #0398cc;
+  text-align: center;
+  counter-increment: listnumbering;
+  content: "" counter(listnumbering);
+  border-radius: 3em;
+  -moz-border-radius: 3em; 
+  -webkit-border-radius: 3em;
+  margin: -.5em 0 .5em 45%;
+  height: 1em;
+  line-height: 1;
+  width: 1em;
+  padding: .5em ;
+  border: 2px solid #0398cc;
+  background-color:#fff;
+}
+
+#signatories {
+  text-align: center;
+}
+#signatories ul {
+  margin-left: 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+#signatories li {
+  float: left;
+  list-style: none;
+  width: 46%;
+  padding: .1em 2%;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-align:center;
+}
+#signatories a {
+  text-decoration: none;
+  display: block;
+  background: none;
+  padding: 0;
+}
+#signatories a:link,
+#signatories a:visited {
+  color: #3a3a3a;
+}
+#signatories a:hover,
+#signatories a:focus,
+#signatories a:active {
+  color: #0699cc;
+}
+
+#resources section ul {
+  list-style: none;
+  text-align: center;
+  margin: 1.5em 0;
+  padding: 0;
+}
+#resources section li {
+  margin-bottom: 1em;  
+}
+
+#resources section h2 {
+    margin-top: 0;
+}
+
+@media all and (min-width: 600px) {
+  body {
+    line-height: 2.15;
+    font-size: 1.2em;
+    padding: 0 3%;
+  }
+  [role="navigation"] li {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  [role="navigation"] li a {
+    display: inline-block;
+    padding: 0 .7em;
+  }
+  [role="navigation"] li:before {
+    content: '';
+  }
+  [role="navigation"] ul:before, [role="navigation"] li:after {
+    display: inline-block;
+    content: "★";
+    color: #0397cc;
+    font-size: 0.4em;
+    padding: 0 0 0 0.6em;
+    position: relative;
+    top: -0.3em;
+  }
+  [role="contentinfo"] li {
+    display: inline;
+    margin-bottom: 0;
+  }
+  #manifesto > header p {
+    margin: 0 4em;  
+    font-size: 0.95em;
+    line-height: 1.75em;
+  }
+  #signatories ul {
+    margin: 0 8%;
+  }
+  #signatories li {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-family: 'Quattrocento Sans', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 1em;
+  }
+  #hope ol li {
+    margin: 0 1em 3em;
+    text-align:left;
+  }
+  #hope ol li:before {
+    clear: none;
+    float: left;  
+    margin: -.5em 1.5em .5em 1.5em;
+  }
+  #resources section li {
+    margin-bottom: 0;  
+ }
+}

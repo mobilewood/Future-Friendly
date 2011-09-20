@@ -1,0 +1,17 @@
+CACHE MANIFEST
+
+#version 1.1
+
+CACHE:
+
+/assets/fflogo.png
+/assets/signed.png
+
+/index.html
+/thinking.html
+/resources.html
+
+/styles.css
+
+NETWORK:
+*
