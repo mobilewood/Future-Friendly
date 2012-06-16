@@ -304,6 +304,10 @@ header h2:before, header h2:after {
   #signatories ul {
     margin: 0 8%;
   }
+  #come-aboard #signatories ul {
+    margin: 1em 0 0 0;
+  }
+
   #signatories li {
     text-transform: lowercase;
     font-variant: small-caps;
