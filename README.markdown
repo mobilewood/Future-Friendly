@@ -13,3 +13,6 @@ A manifesto, thinking points and resources for the future-friendly web. Built lo
 * Jason Grigsby
 * Scott Jenson
 * Scott Jehl
+* Andrea Trasatti
+* Brian LeRoux
+* Tim Kadlec
