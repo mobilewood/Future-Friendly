@@ -266,7 +266,7 @@ header h2:before, header h2:after {
     margin-top: 0;
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 37.5em) {
   body {
     line-height: 2.15;
     font-size: 1.2em;
