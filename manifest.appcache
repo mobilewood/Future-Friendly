@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#version 1.666
+#version 1.71
 
 CACHE:
 
@@ -10,6 +10,7 @@ CACHE:
 /index.html
 /thinking.html
 /resources.html
+/come-aboard.html
 
 /styles.css
 
