@@ -1,5 +1,5 @@
 # Future Friendly
-## [futurefriend.ly](http://futurefriend.ly)
+## [futurefriendlyweb.com](http://futurefriendlyweb.com/)
 
 A manifesto, thinking points and resources for the future-friendly web. Built lovingly at #mobilewood by:
 
